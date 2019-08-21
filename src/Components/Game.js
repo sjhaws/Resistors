@@ -14,7 +14,7 @@ render(props){
         <div className="Question-zone">
 
           <div className="Question">
-            <img src={quest} alt="resistor image"/>
+            <img src={quest} alt="resistor"/>
           </div>
           <div className="Answer">
             <TextField
