@@ -8,24 +8,40 @@
   height: 60%;
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Question-zone{
+  background-color: aliceblue;
+}
+
+.Scoreboard {
+  background-color: #282c34;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+.Scores {
+  width: 40%;
+  justify-content: left;
+}
+
 .App-logo {
   width: 20%;
   height: 50%;
-  pointer-events: none;
 }
 
 .Logo-image{
-  padding-left: 30px;
-  width: 100%;
+  width: 50%;
   height: 60%;
-  float: left;
 }
 
 .App-title-bar{
@@ -35,17 +51,29 @@
 
 .Menu-button{
   height: 80%;
-  width: 30%;
+  width: 20%;
   background-color: lightgray !important;
   font-size: 26px !important;
+  margin: 30px !important;
 }
 
 .Menu {
   background-color: #282c34;
   height: 20%;
+  color: white;
+}
+
+.Question{
+  margin: 50px;
+}
+
+.Answer {
+  input: white;
+  /* color: white; */
 }
 
 .Footer{
+  text-align: center;
   margin: 0px;
   background-color: #282c34;
   color: white;
