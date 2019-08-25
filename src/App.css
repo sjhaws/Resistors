@@ -67,11 +67,6 @@
   margin: 50px;
 }
 
-.Answer {
-  input: white;
-  /* color: white; */
-}
-
 .Footer{
   text-align: center;
   margin: 0px;
@@ -84,11 +79,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Score{
+  background-color: gray;
+  color: #282c34
 }

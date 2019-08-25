@@ -19,7 +19,7 @@ render(){
           <div className="Question">
             <img src={quest} alt="resistor"/>
           </div>
-          <div className="Answer">
+          <div>
             <TextField
             id="value"
             label="Value"
@@ -39,10 +39,13 @@ render(){
         </div>
       </div>
         <div>
-         <Countdown date={Date.now() + 60000} />
+          <h1>
+            <Countdown date={Date.now() + 60000} />
+          </h1>
         </div>
-        <div>
-          <h3>Score</h3>
+        <div className="Score">
+          <h2>Score</h2>
+          <h1>0</h1>
         </div>
     </div>
   )
