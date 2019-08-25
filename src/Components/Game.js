@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import '../App.css';
-import quest from '../Images/demo.jpeg'
+import quest from '../Images/0205.png'
 import Countdown from 'react-countdown-now';
 
 class Game extends Component{
