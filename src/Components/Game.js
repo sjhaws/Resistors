@@ -3,10 +3,13 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import '../App.css';
 import quest from '../Images/demo.jpeg'
+import Countdown from 'react-countdown-now';
 
 class Game extends Component{
   
-render(props){
+  
+render(){
+    
   
   return(
     <div className="App">
@@ -35,6 +38,12 @@ render(props){
             <Button>Next</Button>
         </div>
       </div>
+        <div>
+         <Countdown date={Date.now() + 60000} />
+        </div>
+        <div>
+          <h3>Score</h3>
+        </div>
     </div>
   )
 }
